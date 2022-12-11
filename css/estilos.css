@@ -1,0 +1,272 @@
+/* #fbdb04
+#fced7d
+#fff
+#40c057
+blue
+#4dabf*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-attachment: fixed;
+  background-image: linear-gradient(45deg, #40c057 5%, #4dabf7 95%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 30px;
+  padding: 20px 30px;
+  text-align: left;
+  height: 110px;
+  background: #fbdb04;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-img img {
+  max-width: 60px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a.item-menu {
+  font-weight: 600;
+  color: blue;
+  transition: 0.3s ease-in-out;
+  padding-top: 30px;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+nav ul li a.item-sobre {
+  font-weight: 600;
+  color: blue;
+  transition: 0.3s ease-in-out;
+  padding-top: 30px;
+  text-decoration: none;
+  padding: 15px;
+  border-bottom: 2px solid blue;
+}
+
+.item-menu:hover {
+  background: #fced7d;
+}
+
+.item-sobre:hover {
+  background: #fced7d;
+}
+
+section.banner {
+  padding: 110px 0 30px;
+  height: 100vh;
+}
+
+.banner figure {
+  width: 100%;
+}
+
+.banner figure img {
+  width: 1349px;
+}
+
+.banner2 figure {
+  width: 100%;
+}
+
+.banner2 figure img {
+  width: 1349px;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.container {
+  background: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.containercbf {
+  background: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 30px 30px 30px;
+  border-radius: 12px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.titulo {
+  color: #0000ff;
+  text-align: center;
+}
+
+.card {
+  padding: 20px 0;
+  width: calc(100% / 4 - 30px);
+  margin: 15px;
+  border-radius: 12px;
+}
+
+.card figure {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.card figure img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  border: 8px solid #fff;
+}
+
+.infos {
+  padding: 0 30px 5px;
+  font-size: 14px;
+}
+
+.card h2 {
+  margin-top: 8px;
+  text-align: center;
+  color: blue;
+  font-size: 18px;
+}
+
+.infos p {
+  text-align: center;
+  color: #3a3a3a;
+  line-height: 1.8;
+}
+
+.card2 {
+  width: 935px;
+  height: 490px;
+  padding: 20px;
+  display: flex;
+  margin: 15px;
+  border-radius: 12px;
+}
+
+.card2 figure {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border: 8px solid #fff;
+  margin-top: 5px;
+  display: flex;
+  justify-content: right;
+  border-radius: 12px;
+}
+
+.card2 figure img {
+  width: 30%;
+  display: flex;
+  border-radius: 12px;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.tecnico .card2 figure img {
+  display: flex;
+  border-radius: 12px;
+  width: 306px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.card2 h2 {
+  display: flex;
+  margin-bottom: 8px;
+  color: blue;
+  font-size: 18px;
+}
+
+.infos-tecnico {
+  padding: 0 30px 5px;
+  font-size: 14px;
+}
+
+.infos-tecnico p {
+  text-align: left;
+  color: #3a3a3a;
+  line-height: 1.8;
+}
+
+.c5 .card2 figure {
+  margin-top: 5px;
+  display: flex;
+  justify-content: right;
+  border-radius: 12px;
+  width: 35%;
+}
+
+.infos-index {
+  padding: 10px 30px 5px;
+  font-size: 16px;
+}
+
+.infos-index p {
+  margin: 5px 0;
+  text-align: left;
+  color: #3a3a3a;
+  line-height: 1.8;
+}
+
+footer {
+  height: 190px;
+  width: 100%;
+  padding: 20px 310px;
+  background-color: #fbdb04;
+  display: flex;
+}
+
+footer figure img {
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 140px;
+}
+
+.padding {
+  margin-top: 14px;
+  height: 126px;
+  border-right: 4px dotted #0000ff;
+}
+
+.rodape {
+  font-size: 15px;
+  text-align: left;
+  margin: 20px 50px 35px 14px;
+  color: #0000ff;
+  line-height: 1.5;
+}
